@@ -1,0 +1,5 @@
+
+FROM openjdk:17-alpine3.14
+ADD target/*.jar backend-notes-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","backend-notes-0.0.1-SNAPSHOT.jar"]
+

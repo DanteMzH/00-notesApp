@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS notes (
+    id BINARY(16) PRIMARY KEY,
+    description VARCHAR(255)
+);
